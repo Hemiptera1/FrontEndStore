@@ -1,0 +1,49 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/normalize.css">
+    <link href="https://fonts.googleapis.com/css2?family=Staatliches&display=swap" rel="stylesheet">
+    <link rel="preload" href="css/styles.css" as="style">
+    <link rel="stylesheet" href="css/styles.css">
+    <title>Store</title>
+</head>
+<body>
+    <header class="header">
+        <a href="index.html">
+            <img class="header__logo" src="img/logo.png" alt="Logotipo">
+        </a>
+    </header>
+
+    <nav class="navegacion">
+        <a class="navegacion__enlace navegacion__enlace--activo" href="index.html">Tienda</a>
+        <a class="navegacion__enlace" href="nosotros.html">Nosotros</a>
+    </nav>
+
+    <main class="contenedor">
+        <h1>React JS</h1>
+        <div class="gridProducto">
+            <img src="img/3.jpg" alt="Imagen Camisa" class="producto__imagen">
+            <div>
+                <p class="gridProducto--texto">Making this the first true generator on the Internet. It uses a dictionary of over 200 Latin words, combined with a handful of model sentence structures, to generate Lorem Ipsum which looks reasonable. The generated Lorem Ipsum is therefore always free from repetition, injected humour, or non-characteristic words etc.</p>
+                <form class="formulario">
+                    <select class='formulario__campo' name="" id="">
+                        <option disabled selected>-- Seleccionar Talla --</option>
+                        <option>Chico</option>
+                        <option>Medio</option>
+                        <option>Grancde</option>
+                    </select>
+                    <input class='formulario__campo' type="number" min="1" placeholder="Cantidad">
+                    <input class="formulario__submit" type="submit" value="Agregar al carrito">
+                </form>
+            </div>
+        </div>
+        
+    </main>
+
+    <footer class='footer'>
+        <p class='footer__texto'>Front End Store. Todos los derechos reservados 2022</p>
+    </footer>
+</body>
+</html>
